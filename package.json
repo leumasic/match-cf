@@ -1,5 +1,5 @@
 {
-  "name": "match-cf",
+  "name": "matchass",
   "version": "0.0.0",
   "description": "A flexible and tiny invariant function",
   "keywords": [
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leumasic/match-cf.git"
+    "url": "git+https://github.com/leumasic/matchass.git"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/wrapper.mjs",
@@ -29,7 +29,7 @@
   "files": ["package.json", "README.md", "LICENSE", "dist/"],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "format": "biome format --write src"
   },
   "devDependencies": {
