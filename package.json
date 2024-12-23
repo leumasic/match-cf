@@ -1,6 +1,6 @@
 {
   "name": "matchass",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A flexible and tiny invariant function",
   "keywords": [
     "typescript",
@@ -26,7 +26,12 @@
       "import": "./dist/mjs/wrapper.mjs"
     }
   },
-  "files": ["package.json", "README.md", "LICENSE", "dist/"],
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "test": "vitest run --passWithNoTests",
