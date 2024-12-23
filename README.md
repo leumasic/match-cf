@@ -1,9 +1,9 @@
-# match-cf
+# matchass
 
 ## Install
 
 ```bash
-npm install match-cf
+npm install matchass
 ```
 
 ## Usage
